@@ -1,8 +1,43 @@
-@import 'static/scss/vars.scss';
 .header {
 	width: 960px;
 	height: 210px;
 	margin: 0px auto;
-	margin-top: 30px;
-	//background-color: $lightGreen;
+	position: relative;
+	background-color: $whiteColor;
+	&_topBorder {
+		height: 5px;
+		width: 100%;
+		background-color: $lightGreen;
+	}
+	&_social {
+		width: 251px;
+		height: 53px;
+		position: absolute;
+		top: 0;
+		right: 30px;
+		background-color: $lightGreen;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		&__item {
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+			margin-top: 12px;
+			margin-left: 15px;
+			background-color: $siteBackground;
+			&:hover {
+				background-color: $socialLinksHover;
+			}
+		}
+	}
+	&_topNavigation {
+		width: 100%;
+		height: 70px;
+		position: absolute;
+		bottom: 0;
+		background-color: $lightGreen;
+	}
 }
