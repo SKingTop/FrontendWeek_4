@@ -1,11 +1,11 @@
 // Common styles of the project
-
+@import 'vars.scss';
 html, body {
     height: 100%;
 }
 
 .page {
-    
+  background-color: $siteBackground;
 }
 
 .page__wrapper {
