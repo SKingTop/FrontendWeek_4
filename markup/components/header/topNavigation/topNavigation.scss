@@ -17,7 +17,7 @@
 	color: $whiteColor;
 	margin-left: 20px;
 	&:hover {
-		text-decoration: underline;
+		color: $blackColor;
 	}
 	&:first-child {
 		margin-left: 0;
@@ -28,6 +28,9 @@
 	right: 30px;
 }
 .searchArea {
+	position: absolute;
+	right: 66px;
+	top: 20px;
 	font-size: 12px;
 	width: 216px;
 	height: 32px;
@@ -35,17 +38,22 @@
 	border: 1px solid $formBorder;
 	padding-left: 9px;
 	outline: none;
-	&:focus {
-		border: 1px solid $socialLinksHover;
-	}
 }
 .searchBtn {
+	position: absolute;
+	right: 0;
+	top: 20px;
 	font-size: 12px;
 	width: 67px;
 	height: 32px;
 	box-sizing: border-box;
 	border: 1px solid $formBorder;
-	border-right: none;
 	background-color: $whiteColor;
 	outline: none;
+	cursor: pointer;
+	color: $lightGreen;
+	&:hover {
+		background-color: $lightGreen;
+		color: $whiteColor;
+	}
 }

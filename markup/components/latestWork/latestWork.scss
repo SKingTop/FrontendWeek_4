@@ -1,0 +1,48 @@
+.latestWork {
+	width: 900px;
+	min-height: 431px;
+	height: auto;
+	margin: 0px auto;
+	box-sizing: border-box;
+	background-color: $whiteColor;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 30px;
+}
+.latestWork_item {
+	width: 210px;
+	height: 100%;
+	clear: both;
+	&__img {
+		width: 100%;
+		height: 140px;
+		box-sizing: border-box;
+		border: 1px solid $greyBorder;
+		margin-top: 50px;
+		padding: 5px;		
+	}
+	&__h3 {
+		font-size: 14px;
+		font-weight: normal;
+		color: $h3Color;
+	}
+	&__text {
+		width: 209px;
+		height: auto;
+		font-size: 13px;
+		line-height: 1.6;
+		letter-spacing: 0.3px;
+		color: $greyTextParagraph;
+	}
+	&__link {
+		font-size: 13px;
+		float: right;
+		text-decoration: none;
+		color: $lightGreen;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

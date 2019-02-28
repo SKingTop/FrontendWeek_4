@@ -10,6 +10,12 @@ html, body {
   background-color: $siteBackground;
   padding-top: 30px;
   box-sizing: border-box;
+  &__container {
+  	width: 960px;
+		height: auto;
+		margin: 0px auto;
+  	background-color: $whiteColor;
+  }
 }
 
 .page__wrapper {
@@ -22,5 +28,5 @@ html, body {
 }
 
 .page__buffer {
-    height: 50px;
+    height: 30px;
 }

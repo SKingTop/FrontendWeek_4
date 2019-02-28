@@ -1,10 +1,7 @@
 <div class="header_topNavigation">
-	<a href="#" class="topNavigation__item active">homepage</a>
-	<a href="#" class="topNavigation__item">style demo</a>
-	<a href="#" class="topNavigation__item">full width</a>
-	<a href="#" class="topNavigation__item">portfolio</a>
-	<a href="#" class="topNavigation__item">gallery</a>
-	<a href="#" class="topNavigation__item">dropdown</a>	
+	{{#each topNavigation.item}}
+		<a href="{{url}}" class="topNavigation__item">{{text}}</a>
+	{{/each}}	
 	<form action="#" method="POST" class="searchForm" name="searchForm">
 		<input type="text" name="search_query" class="searchArea" placeholder="Search Our Website...">
 		<input type="submit" name="search_btn" class="searchBtn" value="SEARCH">

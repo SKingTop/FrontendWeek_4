@@ -1,0 +1,17 @@
+.footer {
+	width: 960px;
+	min-height: 250px;
+	height: auto;
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding: 0px 30px;
+	background-color: $footerBackground;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	&_item {
+		width: 210px;
+		height: 100%;
+	}
+}

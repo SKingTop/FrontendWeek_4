@@ -1,6 +1,5 @@
 <div class="header_siteMenu">
-	<a href="#" class="siteMenu__link">Sign Up</a> | 
-	<a href="#" class="siteMenu__link">Login</a> | 
-	<a href="#" class="siteMenu__link">RSS Feeds</a> | 
-	<a href="#" class="siteMenu__link">Archived News</a>
+	{{#each siteMenu.item}}
+		<a href="{{url}}" class="siteMenu__link">{{text}}</a> {{line}}
+	{{/each}}
 </div>
