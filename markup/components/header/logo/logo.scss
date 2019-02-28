@@ -1,0 +1,25 @@
+.header_logo {
+	width: 320px;
+	height: 135px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+.logo_topText {
+	font-size: 36px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin: 0;
+	margin-top: 36px;
+	margin-left: 30px;
+	&::first-letter {
+		font-size: 46px;
+	}
+}
+.logo_bottomText {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	margin: 0;
+	margin-left: 32px;
+	color: $greyText;
+}

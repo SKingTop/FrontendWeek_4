@@ -1,0 +1,18 @@
+.header_siteMenu {
+	width: 253px;
+	height: 87px;
+	position: absolute;
+	right: 30px;
+	bottom: 70px;
+	color: $lightGreen;
+	box-sizing: border-box;
+	padding-top: 35px;
+}
+.siteMenu__link {
+	font-size: 12px;
+	text-decoration: none;
+	color: $lightGreen;
+	&:hover {
+		text-decoration: underline;
+	}
+}

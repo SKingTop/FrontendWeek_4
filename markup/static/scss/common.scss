@@ -1,8 +1,11 @@
 // Common styles of the project
+
 html, body {
     height: 100%;
 }
-
+* {
+	font-family: Georgia-Regular, Arial, sans-serif;
+}
 .page {
   background-color: $siteBackground;
   padding-top: 30px;

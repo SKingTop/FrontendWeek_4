@@ -1,0 +1,31 @@
+.header_social {
+	width: 251px;
+	height: 53px;
+	position: absolute;
+	top: 0;
+	right: 30px;
+	background-color: $lightGreen;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	&__item {
+		box-sizing: border-box;
+		width: 32px;
+		height: 32px;
+		border-radius: 50%;
+		margin-top: 12px;
+		margin-left: 15px;
+		padding-top: 8px;
+		background-color: $siteBackground;
+		display: flex;
+		justify-content: center;
+		&:hover {
+			background-color: $socialLinksHover;
+		}
+		a {
+			color: $whiteColor;
+		}
+	}
+}
