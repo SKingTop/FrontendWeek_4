@@ -1,2 +1,25 @@
-// h1
-// 	color: red;
+.footer_contacts {
+	&__h2 {
+		font-size: 13px;
+		color: $h2Footer;
+		box-sizing: border-box;
+		margin: 0;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	&__text, &__phone, &__fax, &__eMail, &__eMail__link {
+		font-size: 13px;
+		color: $greyTextFooterParagraph;
+		line-height: 1.5;
+	}
+	&__text {
+		margin-top: 0;
+	}
+	&__eMail__link {
+		text-decoration: none;
+		&:hover {
+			color: $lightGreen;
+			text-decoration: underline;
+		}
+	}
+}

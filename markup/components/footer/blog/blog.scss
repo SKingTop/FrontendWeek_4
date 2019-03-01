@@ -1,0 +1,41 @@
+.footer_blog {
+	clear: both;
+	&__h2 {
+		font-size: 13px;
+		color: $h2Footer;
+		box-sizing: border-box;
+		margin: 0px;
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	&__h3, &__h4, &__text {
+		color: $greyTextFooterParagraph;
+		margin: 0px;
+		}
+	&__h3 {
+		font-size: 13px;
+		padding-bottom: 11px;
+	}
+	&__h4 {
+		font-size: 11px;
+		padding-bottom: 14px;
+	}
+	&__text {
+		font-size: 12px;
+		padding-bottom: 8px;
+		line-height: 1.6;
+		letter-spacing: 0.5px;
+	}
+	&__link {
+		display: block;
+		width: auto;
+		font-size: 12px;
+		color: $lightGreen;
+		float: right;
+		text-decoration: none;
+		&:hover {
+			color: $lightGreen;
+			text-decoration: underline;
+		}
+	}
+}

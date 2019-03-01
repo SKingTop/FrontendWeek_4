@@ -10,8 +10,14 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	padding-bottom: 40px;
 	&_item {
 		width: 210px;
 		height: 100%;
+		text-align: left;
 	}
 }
+@import 'components/footer/contacts/contacts.scss';
+@import 'components/footer/links/links.scss';
+@import 'components/footer/blog/blog.scss';
+@import 'components/footer/newsletter/newsletter.scss';

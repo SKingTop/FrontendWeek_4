@@ -9,7 +9,7 @@
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-around;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 .latestWork_item {
 	width: 210px;
@@ -24,6 +24,7 @@
 		padding: 5px;		
 	}
 	&__h3 {
+		margin-top: 21px;
 		font-size: 14px;
 		font-weight: normal;
 		color: $h3Color;
@@ -42,6 +43,7 @@
 		text-decoration: none;
 		color: $lightGreen;
 		&:hover {
+			color: $lightGreen;
 			text-decoration: underline;
 		}
 	}

@@ -2,5 +2,17 @@
 	width: 960px;
 	height: 481px;
 	margin: 0px auto;
+	box-sizing: border-box;
+	padding-top: 30px;
 	background-color: $sliderBackground;
 }
+.slider {
+	width: 900px;
+	height: 380px;
+	background-color: $whiteColor;
+	margin: 0px auto;
+	box-sizing: border-box;
+	border: 1px solid $sliderBorder;
+	padding: 9px;
+}
+@import 'bootstrapSlider/bootstrapSlider.scss';
