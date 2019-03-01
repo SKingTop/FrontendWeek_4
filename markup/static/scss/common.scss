@@ -30,3 +30,26 @@ html, body {
 .page__buffer {
     height: 30px;
 }
+@media (max-width: 999px) {
+  .page {
+    padding-top: 0px;
+    &__container {
+      width: 768px
+    }
+  }
+}
+@media (max-width: 767px) {
+  .page__container {
+    width: 600px
+  }
+}
+@media (max-width: 599px) {
+  .page__container {
+    width: 480px
+  }
+}
+@media (max-width: 479px) {
+  .page__container {
+    width: 320px
+  }
+}

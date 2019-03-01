@@ -58,3 +58,8 @@
 		color: $whiteColor;
 	}
 }
+@media (max-width: 999px) {
+	.header_topNavigation {
+		display: none;
+	}
+}

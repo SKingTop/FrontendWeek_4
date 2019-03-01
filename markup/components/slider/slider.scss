@@ -16,3 +16,39 @@
 	padding: 9px;
 }
 @import 'bootstrapSlider/bootstrapSlider.scss';
+
+@media (max-width: 999px) {
+	.slider_background {
+		width: 768px;
+		height: auto;
+		padding-bottom: 50px;
+	}
+	.slider {
+		width: 728px;
+		height: auto;
+	}
+}
+@media (max-width: 767px) {
+	.slider_background {
+		width: 600px;
+	}
+	.slider {
+		width: 600px;
+	}
+}
+@media (max-width: 599px) {
+	.slider_background {
+		width: 480px;
+	}
+	.slider {
+		width: 480px;
+	}
+}
+@media (max-width: 479px) {
+	.slider_background {
+		width: 320px;
+	}
+	.slider {
+		width: 320px;
+	}
+}

@@ -17,6 +17,7 @@
 		border-radius: 50%;
 		margin-top: 12px;
 		margin-left: 15px;
+		font-size: 15px;
 		padding-top: 5px;
 		background-color: $siteBackground;
 		display: flex;
@@ -27,5 +28,10 @@
 		a {
 			color: $whiteColor;
 		}
+	}
+}
+@media (max-width: 479px) {
+	.header_social {
+		right: 35px;
 	}
 }

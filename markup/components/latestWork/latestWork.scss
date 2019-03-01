@@ -48,3 +48,38 @@
 		}
 	}
 }
+@media (max-width: 999px) {
+	.latestWork {
+		width: 700px;
+  }
+	.latestWork_item {
+		width: 45%;
+		height: 100%;
+		clear: both;
+		&__img  img {
+			width: 100%;
+			height: 100%;		
+		}
+		&__text {
+			width: 100%;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.latestWork {
+		width: 600px;
+  }
+}
+@media (max-width: 599px) {
+	.latestWork {
+		width: 480px;
+  }
+}
+@media (max-width: 479px) {
+	.latestWork {
+		width: 320px;
+  }
+	.latestWork_item {
+		width: 85%;
+	}
+}

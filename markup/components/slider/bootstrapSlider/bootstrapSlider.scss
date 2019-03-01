@@ -1,11 +1,6 @@
 .carousel-indicators {
 	position: absolute;
 	bottom: -60px;
-	left: 50%;
-	z-index: 15;
-	width: 60%;
-	padding-left: 0;
-	margin-left: -30%;
 	text-align: center;
 	list-style: none;
 }
@@ -14,7 +9,6 @@
 	width: 12px;
 	height: 12px;
 	margin: 5px;
-	text-indent: -999px;
 	cursor: pointer;
 	background-color: $siteBackground;
 	border-radius: 50%;
@@ -22,13 +16,70 @@
 	border: 1px solid $siteBackground;
 }
 .carousel-indicators li.active  {
-	background-color: #ddd;
+	background-color: $sliderBackground;
 }
-// .carousel-control-prev-icon {
-// 	position: absolute;
-// 	bottom: 0px; //доделать
-// 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='static/img/assets/slider/left-arrow.png' fill='#b2b2b2' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-// }
-// // .carousel-control-next-icon {
-// // 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#b2b2b2' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-// // }
+.carousel-control-prev, .carousel-control-next {
+	opacity: 1;
+	width: 20px;
+	height: 20px;
+	background-color: $siteBackground;
+	position: absolute;
+	top: 382px;
+	z-index: 1000;
+	border-radius: 50%;
+	box-sizing: border-box;
+	padding-top: 1px;
+}
+.carousel-control-prev {
+	left: 360px;
+	padding-right: 2px;
+}
+.carousel-control-next {
+	right: 360px;
+	padding-left: 2px;
+}
+
+@media (max-width: 999px) {
+	.carousel-control-prev, .carousel-control-next {
+		top: 312px;
+	}
+	.carousel-control-prev {
+		left: 274px;
+	}
+	.carousel-control-next {
+		right: 274px;
+	}
+}
+@media (max-width: 767px) {
+	.carousel-control-prev, .carousel-control-next {
+		top: 260px;
+	}
+	.carousel-control-prev {
+		left: 212px;
+	}
+	.carousel-control-next {
+		right: 212px;
+	}
+}
+@media (max-width: 599px) {
+	.carousel-control-prev, .carousel-control-next {
+		top: 210px;
+	}
+	.carousel-control-prev {
+		left: 154px;
+	}
+	.carousel-control-next {
+		right: 154px;
+	}
+}
+@media (max-width: 479px) {
+	.carousel-control-prev, .carousel-control-next {
+		top: 146px;
+	}
+	.carousel-control-prev {
+		left: 74px;
+	}
+	.carousel-control-next {
+		right: 74px;
+	}
+}

@@ -1,0 +1,59 @@
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+	background-color: $lightGreen !important;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.navbar-toggler {
+	outline: none !important;
+}
+.nav-link {
+	color: $whiteColor !important;
+	&:active {
+		color: $blackColor !important;
+	}
+}
+.btn.btn-outline-success {
+	color: $lightGreen;
+	background-color: $whiteColor;
+	border: 1px solid $formBorder !important;
+	&:active {
+		background-color: $lightGreen !important;
+	}
+}
+.navbar-brand {
+	color: $whiteColor !important;
+	text-transform: uppercase;
+}
+
+@media (min-width: 999px) {
+	.hamburger {
+		display: none;
+	}
+}
+@media (max-width: 999px) {
+	.hamburger {
+		width: 768px;
+		margin: 0px auto;
+	}
+	.nav-link {
+		text-transform: uppercase;
+	}
+	.bg-light {
+		background-color: $whiteColor;
+	}
+}
+@media (max-width: 767px) {
+	.hamburger {
+		width: 600px;
+	}
+}
+@media (max-width: 599px) {
+	.hamburger {
+		width: 480px;
+	}
+}
+@media (max-width: 479px) {
+	.hamburger {
+		width: 320px;
+	}
+}

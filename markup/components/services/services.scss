@@ -34,3 +34,35 @@
 		color: $greyTextParagraph;
 	}
 }
+@media (max-width: 999px) {
+	.services {
+		width: 700px;
+	}
+	.services_item {
+		width: 45%;
+		&__img {
+			padding-top: 40px;
+		}
+		&__text {
+			width: 100%;
+		}
+	}	
+}
+@media (max-width: 767px) {
+	.services {
+		width: 600px;
+	}
+}
+@media (max-width: 599px) {
+	.services {
+		width: 480px;
+	}
+}
+@media (max-width: 479px) {
+	.services {
+		width: 320px;
+	}
+	.services_item {
+		width: 85%;
+	}	
+}

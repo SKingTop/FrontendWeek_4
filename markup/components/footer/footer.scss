@@ -21,3 +21,30 @@
 @import 'components/footer/links/links.scss';
 @import 'components/footer/blog/blog.scss';
 @import 'components/footer/newsletter/newsletter.scss';
+
+@media (max-width: 999px) {
+	.footer {
+		width: 768px;
+		&_item {
+			width: 45%;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.footer {
+		width: 600px;
+	}
+}
+@media (max-width: 599px) {
+	.footer {
+		width: 480px;
+	}
+}
+@media (max-width: 479px) {
+	.footer {
+		width: 320px;
+		&_item {
+			width: 85%;
+		}
+	}
+}

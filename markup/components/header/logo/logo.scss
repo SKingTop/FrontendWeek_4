@@ -23,3 +23,19 @@
 	margin-left: 32px;
 	color: $greyTextLogo;
 }
+@media (max-width: 599px) {
+	.header_logo {
+		top: 20px;
+	}
+}
+@media (max-width: 479px) {
+	.header_logo {
+		top: 25px;
+	}
+	.logo_topText {
+		margin-left: 15px;
+	}
+	.logo_bottomText {
+		margin-left: 17px;
+	}
+}
